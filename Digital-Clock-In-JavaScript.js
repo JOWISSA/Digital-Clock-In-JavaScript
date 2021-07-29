@@ -1,5 +1,4 @@
-
-
+////CLOCK
 
 let clock = document.getElementById('clock');
 
@@ -22,6 +21,8 @@ function time() {
   }
   time();
   let int = setInterval(time, 1000);
+
+////BUTTON
 
   document.querySelector('#start').onclick = function () {
     time()
